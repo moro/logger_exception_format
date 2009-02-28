@@ -1,5 +1,5 @@
 module LoggerExceptionFormat
-  Version = "0.0.1"
+  Version = "0.0.2"
   def self.included(base)
     base.alias_method_chain :debug, :exception_format
   end
