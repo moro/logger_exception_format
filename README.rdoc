@@ -1,0 +1,31 @@
+= logger_exception_format
+
+let ActiveSupport::BufferedLogger log an exception detail.
+
+
+== Installation
+
+=== Archive Installation
+
+  rake install
+
+=== Gem Installation
+
+ $ gem install logger_exception_format
+
+and activate logger_exception_format in config/environment.rb
+
+Example
+=======
+
+Rails.logger.debug(excepton) logged like below
+
+
+ [RuntimeError] An Error
+   /Users/moro/tmp/myapp/vendor/plugins/logger_exception_format/spec/exception_format_logger_spec.rb:17
+   /Users/moro/opt/ruby187/lib/ruby/gems/1.8/gems/rspec-1.1.12/lib/spec/example/example_methods.rb:76:in `instance_eval'
+   /Users/moro/opt/ruby187/lib/ruby/gems/1.8/gems/rspec-1.1.12/lib/spec/example/example_methods.rb:76:in `eval_each_fail_fast'
+   /Users/moro/opt/ruby187/lib/ruby/gems/1.8/gems/rspec-1.1.12/lib/spec/example/example_methods.rb:75:in `each'
+
+Copyright (c) 2009 [name of plugin creator], released under the MIT license
+
