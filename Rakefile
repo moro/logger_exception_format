@@ -17,7 +17,7 @@ include FileUtils
 NAME              = "logger_exception_format"
 AUTHOR            = "MOROHASHI Kyosuke"
 EMAIL             = "moronatural@gmail.com"
-DESCRIPTION       = "make ActiveSupport::BufferedLogger log exception detail."
+DESCRIPTION       = "let ActiveSupport::BufferedLogger log an exception detail."
 HOMEPATH          = "http://github.com/moro/logger_exception_format/tree/master"
 BIN_FILES         = %w(  )
 
